@@ -5,8 +5,10 @@ Level 2
 1. In your own words, describe what JavaScript Code Style is.
 
 2. What is a Regular Expression?
+    Regular expression is a pattern used to match character combinations in strings. In JavaScript, regular expressions are also objects. These patterns are used with the exec and test methods of RegExp, and with the match, replace, search, and split methods of String. This chapter describes JavaScript regular expressions.
 
 3. What does the .random() method do?
+    The random() method returns a random number from 0 (inclusive) up to but not including 1 (exclusive).
 
 4. What does the .sort() method do?
 

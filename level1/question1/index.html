@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript - MA03 - Question 1</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 <body>
-
-<!--Contact Form-->
-
-
-<script src="script.js"></script>
+    <div class="container">  
+        <form id="contact" action="" method="post">
+            <h3>Contact Form</h3>
+            <section>
+                <input placeholder="First Name" pattern="^[a-zA-Z ]+$" type="text" id="firstName">
+            </section>
+            <section>
+                <input placeholder="Last Name" pattern="^[a-zA-Z ]+$" type="text" id="lastName">
+            </section>
+            <section>
+                <input placeholder="Telephone Number" pattern="\d{8,12}" type="tel" id="telephone">
+            </section>
+            <section>
+                <input placeholder="Email Address" pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$" type="email" id="emailAdd">
+            </section>
+            <section>
+                <button type="button" id="submit">Submit</button>
+            </section>
+        </form>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
