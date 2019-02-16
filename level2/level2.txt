@@ -11,13 +11,18 @@ Level 2
     The random() method returns a random number from 0 (inclusive) up to but not including 1 (exclusive).
 
 4. What does the .sort() method do?
+    The sort() method is used to sort an array. The sort order can be either alphabetic or numeric, and either ascending or descending.
 
 5. What does the .reverse() method do?
+    Given the name, the reverse() method reverses the order of the elements in an array.
 
 6. List two examples of bad JavaScript code.
 
 7. What data types can a JSON object contain?
+    A JSON object can contain a string, a number, an object (JSON object), an array, a boolean, or null.
 
 8. What is minifying JavaScript Code?
+    Minifying refers to the process of removing unnecessary or redundant data without affecting how the resource is processed by the browser - e.g. code comments and formatting, removing unused code, using shorter variable and function names, and so on.
 
 9. What is a global variable?
+    A variable declared outside a function, becomes GLOBAL. A global variable has global scope which means all scripts and functions on a web page can access it. 
