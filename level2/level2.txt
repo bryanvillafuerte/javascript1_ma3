@@ -3,6 +3,7 @@ JavaScript MA03
 Level 2
 
 1. In your own words, describe what JavaScript Code Style is.
+    JavaScript Code Style is basically how programmers write their codes. This typically covers naming and declaring rules for variables and functions and how programmers use white space, indentation, and comments.
 
 2. What is a Regular Expression?
     Regular expression is a pattern used to match character combinations in strings. In JavaScript, regular expressions are also objects. These patterns are used with the exec and test methods of RegExp, and with the match, replace, search, and split methods of String. This chapter describes JavaScript regular expressions.
@@ -17,6 +18,11 @@ Level 2
     Given the name, the reverse() method reverses the order of the elements in an array.
 
 6. List two examples of bad JavaScript code.
+    Identifiers beginning with a capital letter:
+    var Color = "red";
+
+    Not using the var statement to define variables:
+    color = "red";
 
 7. What data types can a JSON object contain?
     A JSON object can contain a string, a number, an object (JSON object), an array, a boolean, or null.
